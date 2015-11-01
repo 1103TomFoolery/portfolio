@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+
+<head lang='en'>
+
+	<title>Portfolio Page</title>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel='stylesheet' type='text/css' href='css/bootstrap-social.css'>
+    <link rel='stylesheet' type='text/css' href='css/font-awesome.min.css'>
+
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class='container'>
+
+        <header class='row'>
+            <!-- <div class='row'> -->
+            <div class='col-md-6 title-logo'><img src='images/jesterlogo.jpg' alt='This is the Udacity logo'>
+            </div>
+            <div class='col-md-6 text-uppercase text-right'>
+                <div id='name'>
+                    <h1 class='text-thin title-super'>Tom Allen</h1>
+                </div>
+                <div id='role'>
+                    <h4>Front End Apprentice</h4>
+                </div>
+            </div>
+        </header>
+
+        <div class='row' id='line-top'>
+            <div class='col-md-12'>
+                <hr>
+            </div>
+        </div>
+
+        <div class='col-md-12'>
+            <img class='img-responsive img-center' src='images/inspiration.png' alt='This is a glamour shot'>
+        </div>
+
+        <section id='featuredWork'>
+            <div class='row'>
+                <div class='col-md-12'>
+                    <h2 class='text-muted'>Featured Work</h2> </div>
+            </div>
+            <div class='row text-center'>
+                <div class='col-md-4 img-responsive vcenter' data-toggle='modal' data-target='#project1'>
+                    <img src='images/technology_1.jpg' alt='project1'>
+                    <h3 class='text-uppercase'>Online Resume</h3>
+                    <a href='https://github.com/tomfoolery1103/project1'>Link to Project</a>
+                </div>
+                <div class='col-md-4 img-responsive vcenter' data-toggle='modal' data-target='#project2'>
+                    <img src='images/simpsons.jpg' alt='project2'>
+                    <h3 class='text-uppercase'>Arcade Game</h3>
+                    <a href='https://github.com/tomfoolery1103/project2'>Link to Project</a>
+                </div>
+
+                <div class='col-md-4 img-responsive vcenter' data-toggle='modal' data-target='#project3'>
+                    <img src='images/shakedown.jpeg' alt='project3'>
+                    <h3 class='text-uppercase'>Neighborhood Map</h3>
+                    <a href='https://github.com/tomfoolery1103/project3'>Link to Project</a>
+                </div>
+            </div>
+        </section>
+
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="project1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Resume">Responsive Online Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/joker.jpg" alt='Project1Modal'> 
+                    <p id='proj1'>
+                        This was my first project in this class. I learned a lot about HTML and CSS.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="project2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Arcade">Arcade Game Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/simpsons.png" alt='Project2Modal'> 
+                        <p id='proj2'>
+                            This was my second project in this nanodegree. I learned a lot about HTML and CSS.
+                        </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="project3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="Neighborhood">Neighborhood Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/shakedown.jpeg" alt='Project3Modal'> 
+                    <p id="proj3">
+                        This was my third project in this class. I learned a lot about HTML and CSS.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class='container'>
+        <div class='row' id='bottom-line'>
+            <div class='col-lg-12'>
+                <hr>
+            </div>
+        </div>
+        <ul class='list-inline row'>
+            <li>
+                <a class='btn btn-block btn-social-icon btn-google'>
+                    <i class='fa fa-google'></i>
+                </a>
+            </li>
+            <li>
+                <a class='btn btn-block btn-social-icon btn-github'>
+                    <i class='fa fa-github'></i>
+                </a>
+            </li>
+            <li>
+                <a class='btn btn-block btn-social-icon btn-linkedin'>
+                    <i class='fa fa-linkedin'></i>
+                </a>
+            </li>
+            <li>
+                <a class='btn btn-block btn-social-icon btn-twitter'>
+                    <i class='fa fa-twitter'></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+
+</html>
